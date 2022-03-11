@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Pacman</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pacman site assignment">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Corinthia&family=Festive&family=Montserrat+Alternates&family=Mukta:wght@200&family=Press+Start+2P&family=Saira+Condensed&family=Squada+One&family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <ol>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#high-scores"> High Scores</a></li>
+                <li><a href="#how-to-play"> How to Play</a></li>
+                <li><a href="#players"> Players</a></li>
+            </ol>
+        </nav>
+
+        <header id="home">
+            <img src="img/Pac_man_logo.png" class="center">
+            <div class="run">
+                <img src="img/Pacman-moving.gif" class="icon" alt="a gif of pacman moving">
+                <img src="img/Pinky.png" class="icon" alt="the character pinky">
+                <img src="img/Inky.png" class="icon" alt="the character inky">
+                <img src="img/Blinky.png" class="icon" alt="the character blinky">
+                <img src="img/Clyde.png" class="icon" alt="the character clyde">
+            </div>
+            <p class="blink">INSERT COINS</p>
+        </header>
+
+        <section class="pad"></section>
+
+        <section id="high-scores">
+            <p><span>READY!</span></p>
+            <p>THE 10 BEST PLAYERS</p>
+            <table>
+                <th>RANK</th>
+                <th>SCORE</th>
+                <th>INITIALS</th>
+                <tr>
+                    <td>1ST</td>
+                    <td>10,000</td>
+                    <td>JRB</td>
+                </tr>
+                <tr>
+                    <td>2ND</td>
+                    <td>9,950</td>
+                    <td>LAB</td>
+                </tr>
+                <tr>
+                    <td>3RD</td>
+                    <td>9,000</td>
+                    <td>CJB</td>
+                </tr>
+                <tr>
+                    <td>4TH</td>
+                    <td>8,750</td>
+                    <td>KED</td>
+                </tr>
+                <tr>
+                    <td>5TH</td>
+                    <td>8,500</td>
+                    <td>JBB</td>
+                </tr>
+                <tr>
+                    <td>6TH</td>
+                    <td>7,750</td>
+                    <td>SBB</td>
+                </tr>
+                <tr>
+                    <td>7TH</td>
+                    <td>7,250</td>
+                    <td>MLB</td>
+                </tr>
+                <tr>
+                    <td>8TH</td>
+                    <td>6,850</td>
+                    <td>AGD</td>
+                </tr>
+                <tr>
+                    <td>9TH</td>
+                    <td>6,500</td>
+                    <td>KAD</td>
+                </tr>
+                <tr>
+                    <td>10TH</td>
+                    <td>6,250</td>
+                    <td>BOB</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="pad"></section>
+
+        <section id="how-to-play">
+            <div class="chase">
+                <img src="img/Pacman-moving.gif" class="icon" alt="a gif of pacman moving">
+                <img src="img/Eaten.png" class="icon" alt="the eaten character">
+                <img src="img/Eaten.png" class="icon" alt="the eaten character">
+                <img src="img/Eaten.png" class="icon" alt="the eaten character">
+                <img src="img/Eaten.png" class="icon" alt="the eaten character">
+                
+            </div>
+            <p>HOW TO PLAY</p>
+            <p><span>Simply score as many points as you </span><br>can esting the small dots all around the maze. 
+                10 points per dot (240 of them). Big points come when you eat 1 of the 4 Big flashing dots called
+            Energizers worth 50 points located in each corner of the maze.</p>
+        </section>
+
+        <section class="pad"></section>
+
+        <section id="players">
+            <p>PLAYERS</p>
+            <p>CHARACTERS / NICKNAME</p>
+            <table>
+                <tr>
+                    <td><img src="img/Blinky.png" alt="the character blinky"></td>
+                    <td>-SHADOW</td>
+                    <td>"BLINKY"</td>
+                </tr>
+                <tr>
+                    <td><img src="img/Pinky.png" alt="the character pinky"></td>
+                    <td>-SPEEDY</td>
+                    <td>"PINKY"</td>
+                </tr>
+                <tr>
+                    <td><img src="img/Inky.png" alt="the character inky"></td>
+                    <td>-BASHFUL</td>
+                    <td>"INKY"</td>
+                </tr>
+                <tr>
+                    <td><img src="img/Clyde.png" alt="the character clyde"></td>
+                    <td>-POKEY</td>
+                    <td>"CLYDE"</td>
+                </tr>
+            </table>
+        </section>
+        <div>
+            <table class="pts">
+                <tr>
+                    <td>200 PTS</td>
+                    <td><img src="img/Eaten.png" alt="the eaten character worth 200 points"> <img src="img/Eaten.png" alt="the eaten character"> <img src="img/Eaten.png" alt="the eaten character"></td>
+                </tr>
+                <tr>
+                    <td>50 PTS</td>
+                    <td><img src="img/pts.png" src="example of 50 points"></td>
+                </tr>
+                <tr>
+                    <td>10 PTS</td>
+                    <td><img src="img/pts.png" class="tinypts" src="example of 10 points"></td>
+                </tr>
+            </table>
+        </div>
+
+        <section>
+            <footer>This site has no affiliation with the actual Pacman game</footer>
+        </section>
+
+    </div>
+
+
+</body>
+</html>
